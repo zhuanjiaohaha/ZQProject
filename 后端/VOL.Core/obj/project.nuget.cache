@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VbBVf1URFws=",
+  "dgSpecHash": "bHgY7+hFsbU=",
   "success": true,
-  "projectFilePath": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Core\\ZQ.Core.csproj",
+  "projectFilePath": "F:\\Project\\ZQProject\\后端\\VOL.Core\\ZQ.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",

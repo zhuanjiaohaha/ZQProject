@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1w+IZvVKy8g=",
+  "dgSpecHash": "Qv+vMuf14h0=",
   "success": true,
-  "projectFilePath": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Entity\\ZQ.Entity.csproj",
+  "projectFilePath": "F:\\Project\\ZQProject\\后端\\VOL.Entity\\ZQ.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

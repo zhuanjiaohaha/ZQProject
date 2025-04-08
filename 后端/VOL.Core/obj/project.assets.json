@@ -10625,11 +10625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Core\\ZQ.Core.csproj",
+      "projectUniqueName": "F:\\Project\\ZQProject\\后端\\VOL.Core\\ZQ.Core.csproj",
       "projectName": "ZQ.Core",
-      "projectPath": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Core\\ZQ.Core.csproj",
+      "projectPath": "F:\\Project\\ZQProject\\后端\\VOL.Core\\ZQ.Core.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Core\\obj\\",
+      "outputPath": "F:\\Project\\ZQProject\\后端\\VOL.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10651,8 +10651,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Entity\\ZQ.Entity.csproj": {
-              "projectPath": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Entity\\ZQ.Entity.csproj"
+            "F:\\Project\\ZQProject\\后端\\VOL.Entity\\ZQ.Entity.csproj": {
+              "projectPath": "F:\\Project\\ZQProject\\后端\\VOL.Entity\\ZQ.Entity.csproj"
             }
           }
         }

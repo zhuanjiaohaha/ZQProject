@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\",
+  "WorkspaceRootPath": "F:\\Project\\ZQProject\\\u540E\u7AEF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F688BF2-B51B-4812-B0C4-8F5D13114E9E}|VOL.System\\ZQ.System.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\net6\u5F00\u53D1\u7248\\vol.system\\services\\applicant\\partial\\applicantsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\ZQ.WebApi.csproj|f:\\project\\zqproject\\\u540E\u7AEF\\vol.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\ZQ.WebApi.csproj|solutionrelative:vol.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F688BF2-B51B-4812-B0C4-8F5D13114E9E}|VOL.System\\ZQ.System.csproj|f:\\project\\zqproject\\\u540E\u7AEF\\vol.system\\services\\applicant\\partial\\applicantsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F688BF2-B51B-4812-B0C4-8F5D13114E9E}|VOL.System\\ZQ.System.csproj|solutionrelative:vol.system\\services\\applicant\\partial\\applicantsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\ZQ.WebApi.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\net6\u5F00\u53D1\u7248\\vol.webapi\\controllers\\system\\partial\\applicantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\ZQ.WebApi.csproj|f:\\project\\zqproject\\\u540E\u7AEF\\vol.webapi\\controllers\\system\\partial\\applicantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\ZQ.WebApi.csproj|solutionrelative:vol.webapi\\controllers\\system\\partial\\applicantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C71993AA-586E-4AF4-AD77-B5D7A07B3B7B}|VOL.Builder\\ZQ.Builder.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\net6\u5F00\u53D1\u7248\\vol.builder\\services\\core\\partial\\sys_tableinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C71993AA-586E-4AF4-AD77-B5D7A07B3B7B}|VOL.Builder\\ZQ.Builder.csproj|f:\\project\\zqproject\\\u540E\u7AEF\\vol.builder\\services\\core\\partial\\sys_tableinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C71993AA-586E-4AF4-AD77-B5D7A07B3B7B}|VOL.Builder\\ZQ.Builder.csproj|solutionrelative:vol.builder\\services\\core\\partial\\sys_tableinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F688BF2-B51B-4812-B0C4-8F5D13114E9E}|VOL.System\\ZQ.System.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\net6\u5F00\u53D1\u7248\\vol.system\\services\\system\\partial\\sys_roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F688BF2-B51B-4812-B0C4-8F5D13114E9E}|VOL.System\\ZQ.System.csproj|f:\\project\\zqproject\\\u540E\u7AEF\\vol.system\\services\\system\\partial\\sys_roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F688BF2-B51B-4812-B0C4-8F5D13114E9E}|VOL.System\\ZQ.System.csproj|solutionrelative:vol.system\\services\\system\\partial\\sys_roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C71993AA-586E-4AF4-AD77-B5D7A07B3B7B}|VOL.Builder\\ZQ.Builder.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\net6\u5F00\u53D1\u7248\\vol.builder\\zq.builder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{C71993AA-586E-4AF4-AD77-B5D7A07B3B7B}|VOL.Builder\\ZQ.Builder.csproj|f:\\project\\zqproject\\\u540E\u7AEF\\vol.builder\\zq.builder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C71993AA-586E-4AF4-AD77-B5D7A07B3B7B}|VOL.Builder\\ZQ.Builder.csproj|solutionrelative:vol.builder\\zq.builder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -30,15 +34,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "VOL.WebApi\\appsettings.json",
+              "ToolTip": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.WebApi\\appsettings.json",
+              "RelativeToolTip": "VOL.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T07:00:44.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Sys_TableInfoService.cs",
-              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\VOL.Builder\\Services\\Core\\Partial\\Sys_TableInfoService.cs",
+              "DocumentMoniker": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.Builder\\Services\\Core\\Partial\\Sys_TableInfoService.cs",
               "RelativeDocumentMoniker": "VOL.Builder\\Services\\Core\\Partial\\Sys_TableInfoService.cs",
-              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\VOL.Builder\\Services\\Core\\Partial\\Sys_TableInfoService.cs",
+              "ToolTip": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.Builder\\Services\\Core\\Partial\\Sys_TableInfoService.cs",
               "RelativeToolTip": "VOL.Builder\\Services\\Core\\Partial\\Sys_TableInfoService.cs",
               "ViewState": "AgIAAC0CAAAAAAAAAAAowD0CAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -46,11 +63,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ApplicantsController.cs",
-              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\VOL.WebApi\\Controllers\\System\\Partial\\ApplicantsController.cs",
+              "DocumentMoniker": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.WebApi\\Controllers\\System\\Partial\\ApplicantsController.cs",
               "RelativeDocumentMoniker": "VOL.WebApi\\Controllers\\System\\Partial\\ApplicantsController.cs",
-              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\VOL.WebApi\\Controllers\\System\\Partial\\ApplicantsController.cs",
+              "ToolTip": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.WebApi\\Controllers\\System\\Partial\\ApplicantsController.cs",
               "RelativeToolTip": "VOL.WebApi\\Controllers\\System\\Partial\\ApplicantsController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAYwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -58,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApplicantsService.cs",
-              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\VOL.System\\Services\\Applicant\\Partial\\ApplicantsService.cs",
+              "DocumentMoniker": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.System\\Services\\Applicant\\Partial\\ApplicantsService.cs",
               "RelativeDocumentMoniker": "VOL.System\\Services\\Applicant\\Partial\\ApplicantsService.cs",
-              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\VOL.System\\Services\\Applicant\\Partial\\ApplicantsService.cs",
+              "ToolTip": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.System\\Services\\Applicant\\Partial\\ApplicantsService.cs",
               "RelativeToolTip": "VOL.System\\Services\\Applicant\\Partial\\ApplicantsService.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAADwvzAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,11 +88,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Sys_RoleService.cs",
-              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\VOL.System\\Services\\System\\Partial\\Sys_RoleService.cs",
+              "DocumentMoniker": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.System\\Services\\System\\Partial\\Sys_RoleService.cs",
               "RelativeDocumentMoniker": "VOL.System\\Services\\System\\Partial\\Sys_RoleService.cs",
-              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\VOL.System\\Services\\System\\Partial\\Sys_RoleService.cs",
+              "ToolTip": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.System\\Services\\System\\Partial\\Sys_RoleService.cs",
               "RelativeToolTip": "VOL.System\\Services\\System\\Partial\\Sys_RoleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -83,11 +100,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ZQ.Builder.csproj",
-              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\VOL.Builder\\ZQ.Builder.csproj",
+              "DocumentMoniker": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.Builder\\ZQ.Builder.csproj",
               "RelativeDocumentMoniker": "VOL.Builder\\ZQ.Builder.csproj",
-              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\Net6\u5F00\u53D1\u7248\\VOL.Builder\\ZQ.Builder.csproj",
+              "ToolTip": "F:\\Project\\ZQProject\\\u540E\u7AEF\\VOL.Builder\\ZQ.Builder.csproj",
               "RelativeToolTip": "VOL.Builder\\ZQ.Builder.csproj",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

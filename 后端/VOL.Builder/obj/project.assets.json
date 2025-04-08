@@ -10652,11 +10652,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Builder\\ZQ.Builder.csproj",
+      "projectUniqueName": "F:\\Project\\ZQProject\\后端\\VOL.Builder\\ZQ.Builder.csproj",
       "projectName": "ZQ.Builder",
-      "projectPath": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Builder\\ZQ.Builder.csproj",
+      "projectPath": "F:\\Project\\ZQProject\\后端\\VOL.Builder\\ZQ.Builder.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Builder\\obj\\",
+      "outputPath": "F:\\Project\\ZQProject\\后端\\VOL.Builder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10678,11 +10678,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Core\\ZQ.Core.csproj": {
-              "projectPath": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Core\\ZQ.Core.csproj"
+            "F:\\Project\\ZQProject\\后端\\VOL.Core\\ZQ.Core.csproj": {
+              "projectPath": "F:\\Project\\ZQProject\\后端\\VOL.Core\\ZQ.Core.csproj"
             },
-            "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Entity\\ZQ.Entity.csproj": {
-              "projectPath": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.Entity\\ZQ.Entity.csproj"
+            "F:\\Project\\ZQProject\\后端\\VOL.Entity\\ZQ.Entity.csproj": {
+              "projectPath": "F:\\Project\\ZQProject\\后端\\VOL.Entity\\ZQ.Entity.csproj"
             }
           }
         }
