@@ -5744,11 +5744,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\致圈\\开发版dev\\个人信息H5上传\\PersonInfoApp\\PersonInfoApp.csproj",
+      "projectUniqueName": "F:\\Project\\ZQProject\\个人信息H5上传\\PersonInfoApp\\PersonInfoApp.csproj",
       "projectName": "PersonInfoApp",
-      "projectPath": "F:\\致圈\\开发版dev\\个人信息H5上传\\PersonInfoApp\\PersonInfoApp.csproj",
+      "projectPath": "F:\\Project\\ZQProject\\个人信息H5上传\\PersonInfoApp\\PersonInfoApp.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\致圈\\开发版dev\\个人信息H5上传\\PersonInfoApp\\obj\\",
+      "outputPath": "F:\\Project\\ZQProject\\个人信息H5上传\\PersonInfoApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

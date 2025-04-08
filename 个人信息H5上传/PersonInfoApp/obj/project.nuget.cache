@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BQfqLz9nNcI=",
+  "dgSpecHash": "z9wsJ7p+qho=",
   "success": true,
-  "projectFilePath": "F:\\致圈\\开发版dev\\个人信息H5上传\\PersonInfoApp\\PersonInfoApp.csproj",
+  "projectFilePath": "F:\\Project\\ZQProject\\个人信息H5上传\\PersonInfoApp\\PersonInfoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

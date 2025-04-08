@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\致圈\\开发版dev\\个人信息H5上传\\PersonInfo\\PersonInfo.csproj": {}
+    "F:\\Project\\ZQProject\\个人信息H5上传\\PersonInfo\\PersonInfo.csproj": {}
   },
   "projects": {
-    "F:\\致圈\\开发版dev\\个人信息H5上传\\PersonInfo\\PersonInfo.csproj": {
+    "F:\\Project\\ZQProject\\个人信息H5上传\\PersonInfo\\PersonInfo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\致圈\\开发版dev\\个人信息H5上传\\PersonInfo\\PersonInfo.csproj",
+        "projectUniqueName": "F:\\Project\\ZQProject\\个人信息H5上传\\PersonInfo\\PersonInfo.csproj",
         "projectName": "PersonInfo",
-        "projectPath": "F:\\致圈\\开发版dev\\个人信息H5上传\\PersonInfo\\PersonInfo.csproj",
+        "projectPath": "F:\\Project\\ZQProject\\个人信息H5上传\\PersonInfo\\PersonInfo.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "F:\\致圈\\开发版dev\\个人信息H5上传\\PersonInfo\\obj\\",
+        "outputPath": "F:\\Project\\ZQProject\\个人信息H5上传\\PersonInfo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
