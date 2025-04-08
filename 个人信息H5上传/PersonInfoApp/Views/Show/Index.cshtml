@@ -1,0 +1,189 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "查看申请人信息";
+}
+
+<body>
+    <h1>申请人信息列表</h1>
+    <table id="applicantTable">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>手机号</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 数据将通过 JavaScript 动态填充 -->
+        </tbody>
+    </table>
+
+    <div id="detailModal">
+        <div id="detailContent">
+            <span id="closeModal" style="float: right; cursor: pointer;">&times;</span>
+            <h2 id="detailName"></h2>
+            <p><strong>年龄:</strong> <span id="detailAge"></span></p>
+            <p><strong>手机号:</strong> <span id="detailPhone"></span></p>
+            <p><strong>才艺与特长:</strong> <span id="detailTalents"></span></p>
+            <p><strong>照片:</strong></p>
+            <div id="detailPhotos"></div>
+            <p><strong>视频:</strong></p>
+            <div id="detailVideos"></div>
+        </div>
+    </div>
+
+    <script>
+        async function fetchApplicants() {
+            try {
+                const response = await fetch('/Show');
+                const applicants = await response.json();
+
+                const tableBody = document.getElementById('applicantTable').getElementsByTagName('tbody')[0];
+                applicants.forEach(applicant => {
+                    const row = tableBody.insertRow();
+                    const nameCell = row.insertCell(0);
+                    const ageCell = row.insertCell(1);
+                    const phoneCell = row.insertCell(2);
+                    const actionCell = row.insertCell(3);
+
+                    nameCell.textContent = applicant.name;
+                    ageCell.textContent = applicant.age;
+                    phoneCell.textContent = applicant.phone;
+
+                    const viewButton = document.createElement('button');
+                    viewButton.textContent = '查看';
+                    viewButton.addEventListener('click', () => {
+                        showApplicantDetails(applicant.id);
+                    });
+                    actionCell.appendChild(viewButton);
+                });
+            } catch (error) {
+                alert('获取申请人信息失败，请稍后重试。');
+            }
+        }
+
+        async function showApplicantDetails(id) {
+            try {
+                const response = await fetch(`/Show/${id}`);
+                const applicant = await response.json();
+
+                const detailModal = document.getElementById('detailModal');
+                const detailName = document.getElementById('detailName');
+                const detailAge = document.getElementById('detailAge');
+                const detailPhone = document.getElementById('detailPhone');
+                const detailTalents = document.getElementById('detailTalents');
+                const detailPhotos = document.getElementById('detailPhotos');
+                const detailVideos = document.getElementById('detailVideos');
+
+                detailName.textContent = applicant.name;
+                detailAge.textContent = applicant.age;
+                detailPhone.textContent = applicant.phone;
+                detailTalents.textContent = applicant.talents;
+
+                detailPhotos.innerHTML = '';
+                applicant.photos.forEach(photo => {
+                    const img = document.createElement('img');
+                    img.src = `data:image/jpeg;base64,${photo}`;
+                    detailPhotos.appendChild(img);
+                });
+
+                detailVideos.innerHTML = '';
+                applicant.videos.forEach(video => {
+                    const videoElement = document.createElement('video');
+                    videoElement.src = `data:video/mp4;base64,${video}`;
+                    videoElement.controls = true;
+                    detailVideos.appendChild(videoElement);
+                });
+
+                detailModal.style.display = 'flex';
+            } catch (error) {
+                alert('获取申请人详细信息失败，请稍后重试。');
+            }
+        }
+
+        const closeModal = document.getElementById('closeModal');
+        const detailModal = document.getElementById('detailModal');
+        closeModal.addEventListener('click', () => {
+            detailModal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target === detailModal) {
+                detailModal.style.display = 'none';
+            }
+        });
+
+        fetchApplicants();
+    </script>
+</body>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    button {
+        background-color: #007BFF;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    #detailModal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+
+    #detailContent {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 80%;
+        max-height: 80%;
+        overflow-y: auto;
+    }
+
+        #detailContent img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        #detailContent video {
+            max-width: 100%;
+            height: auto;
+        }
+</style>

@@ -1,0 +1,11 @@
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\PersonInfoApp.exe
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\PersonInfoApp.dll
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\PersonInfoApp.deps.json
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\PersonInfoApp.runtimeconfig.json
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\PersonInfoApp.pdb
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\Dapper.dll
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+D:\work\致圈\开发版dev\个人信息H5上传\PersonInfoApp\obj\Release\net8.0\PubTmp\Out\MySqlConnector.dll

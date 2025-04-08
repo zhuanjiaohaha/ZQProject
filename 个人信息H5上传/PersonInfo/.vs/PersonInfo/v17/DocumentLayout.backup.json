@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6890FF1B-4ECF-446C-8F12-DFB219ABFA8A}|..\\PersonInfoApp\\PersonInfoApp.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606Fh5\u4E0A\u4F20\\personinfoapp\\views\\show\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890FF1B-4ECF-446C-8F12-DFB219ABFA8A}|..\\PersonInfoApp\\PersonInfoApp.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606Fh5\u4E0A\u4F20\\personinfoapp\\controllers\\showcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890FF1B-4ECF-446C-8F12-DFB219ABFA8A}|..\\PersonInfoApp\\PersonInfoApp.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606Fh5\u4E0A\u4F20\\personinfoapp\\views\\applicant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890FF1B-4ECF-446C-8F12-DFB219ABFA8A}|..\\PersonInfoApp\\PersonInfoApp.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606Fh5\u4E0A\u4F20\\personinfoapp\\controllers\\applicantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890FF1B-4ECF-446C-8F12-DFB219ABFA8A}|..\\PersonInfoApp\\PersonInfoApp.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606Fh5\u4E0A\u4F20\\personinfoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890FF1B-4ECF-446C-8F12-DFB219ABFA8A}|..\\PersonInfoApp\\PersonInfoApp.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606Fh5\u4E0A\u4F20\\personinfoapp\\controllers\\applicantviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890FF1B-4ECF-446C-8F12-DFB219ABFA8A}|..\\PersonInfoApp\\PersonInfoApp.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606Fh5\u4E0A\u4F20\\personinfoapp\\databusiness\\applicantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890FF1B-4ECF-446C-8F12-DFB219ABFA8A}|..\\PersonInfoApp\\PersonInfoApp.csproj|f:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606Fh5\u4E0A\u4F20\\personinfoapp\\models\\verifyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Views\\Applicant\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\PersonInfoApp\\Views\\Applicant\\Index.cshtml",
+              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Views\\Applicant\\Index.cshtml",
+              "RelativeToolTip": "..\\PersonInfoApp\\Views\\Applicant\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T17:29:31.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Program.cs",
+              "RelativeDocumentMoniker": "..\\PersonInfoApp\\Program.cs",
+              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Program.cs",
+              "RelativeToolTip": "..\\PersonInfoApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:59:59.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VerifyRequest.cs",
+              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Models\\VerifyRequest.cs",
+              "RelativeDocumentMoniker": "..\\PersonInfoApp\\Models\\VerifyRequest.cs",
+              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Models\\VerifyRequest.cs",
+              "RelativeToolTip": "..\\PersonInfoApp\\Models\\VerifyRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:58:22.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicantController.cs",
+              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Controllers\\ApplicantController.cs",
+              "RelativeDocumentMoniker": "..\\PersonInfoApp\\Controllers\\ApplicantController.cs",
+              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Controllers\\ApplicantController.cs",
+              "RelativeToolTip": "..\\PersonInfoApp\\Controllers\\ApplicantController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:48:20.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicantViewController.cs",
+              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Controllers\\ApplicantViewController.cs",
+              "RelativeDocumentMoniker": "..\\PersonInfoApp\\Controllers\\ApplicantViewController.cs",
+              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Controllers\\ApplicantViewController.cs",
+              "RelativeToolTip": "..\\PersonInfoApp\\Controllers\\ApplicantViewController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswCgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T02:45:51.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicantRepository.cs",
+              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\DataBusiness\\ApplicantRepository.cs",
+              "RelativeDocumentMoniker": "..\\PersonInfoApp\\DataBusiness\\ApplicantRepository.cs",
+              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\DataBusiness\\ApplicantRepository.cs",
+              "RelativeToolTip": "..\\PersonInfoApp\\DataBusiness\\ApplicantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T02:47:33.139Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Views\\Show\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\PersonInfoApp\\Views\\Show\\Index.cshtml",
+              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Views\\Show\\Index.cshtml",
+              "RelativeToolTip": "..\\PersonInfoApp\\Views\\Show\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T03:32:46.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowController.cs",
+              "DocumentMoniker": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Controllers\\ShowController.cs",
+              "RelativeDocumentMoniker": "..\\PersonInfoApp\\Controllers\\ShowController.cs",
+              "ToolTip": "F:\\\u81F4\u5708\\\u5F00\u53D1\u7248dev\\\u4E2A\u4EBA\u4FE1\u606FH5\u4E0A\u4F20\\PersonInfoApp\\Controllers\\ShowController.cs",
+              "RelativeToolTip": "..\\PersonInfoApp\\Controllers\\ShowController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAzwDIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T03:32:33.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

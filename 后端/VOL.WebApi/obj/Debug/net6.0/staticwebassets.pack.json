@@ -1,0 +1,205 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\Upload\\Tables\\App_News\\202204200018378581\\img02.png",
+      "PackagePath": "staticwebassets\\Upload\\Tables\\App_News\\202204200018378581\\img02.png"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\Upload\\Tables\\App_Transaction\\202204172225478035\\img03.png",
+      "PackagePath": "staticwebassets\\Upload\\Tables\\App_Transaction\\202204172225478035\\img03.png"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\Upload\\Tables\\App_Transaction\\202204172225587342\\img01.png",
+      "PackagePath": "staticwebassets\\Upload\\Tables\\App_Transaction\\202204172225587342\\img01.png"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\Upload\\Tables\\App_Transaction\\202204172226012098\\img04.png",
+      "PackagePath": "staticwebassets\\Upload\\Tables\\App_Transaction\\202204172226012098\\img04.png"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\Upload\\Tables\\Applicants\\202504071639338332\\p1.jfif",
+      "PackagePath": "staticwebassets\\Upload\\Tables\\Applicants\\202504071639338332\\p1.jfif"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\Upload\\Tables\\Applicants\\202504071639395413\\v1.mp4",
+      "PackagePath": "staticwebassets\\Upload\\Tables\\Applicants\\202504071639395413\\v1.mp4"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\Upload\\Tables\\Sys_User\\202204130014502760\\2.png",
+      "PackagePath": "staticwebassets\\Upload\\Tables\\Sys_User\\202204130014502760\\2.png"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\test.txt",
+      "PackagePath": "staticwebassets\\test.txt"
+    },
+    {
+      "Id": "F:\\致圈\\开发版dev\\Net6开发版\\VOL.WebApi\\wwwroot\\新建文本文档.txt",
+      "PackagePath": "staticwebassets\\新建文本文档.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ZQ.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ZQ.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ZQ.WebApi.props",
+      "PackagePath": "build\\ZQ.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ZQ.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\ZQ.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ZQ.WebApi.props",
+      "PackagePath": "buildTransitive\\ZQ.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

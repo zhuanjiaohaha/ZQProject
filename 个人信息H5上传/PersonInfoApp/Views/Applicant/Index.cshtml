@@ -1,0 +1,412 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "致圈文娱精英模卡申请";
+}
+<body>
+    <h1 class="page-title">致圈文娱精英模卡申请</h1>
+    <form id="infoForm">
+        <label for="name">姓名:</label>
+        <input type="text" id="name" name="name" placeholder="请输入姓名" required>
+
+        <label for="stageName">艺名:</label>
+        <input type="text" id="stageName" name="stageName" placeholder="请输入艺名">
+
+        <label>性别:</label>
+        <div class="radio-group">
+            <input type="radio" id="sexwomen" name="sex" value="女" required>
+            <label for="sexwomen">女</label>
+            <input type="radio" id="sexman" name="sex" value="男" required>
+            <label for="sexman">男</label>
+        </div>
+
+        <label for="age">年龄（周岁）:</label>
+        <input type="number" id="age" name="age" placeholder="请输入年龄" min="0" required>
+
+        <label for="phone">联系电话:</label>
+        <input type="text" id="phone" name="phone" placeholder="请输入联系电话" required pattern="^1[3-9]\d{9}$">
+
+        <label for="city">现居城市:</label>
+        <input type="text" id="city" name="city" placeholder="请输入现居城市" required>
+
+        <label for="height">身高(cm):</label>
+        <input type="number" id="height" name="height" placeholder="请输入身高" min="0" required>
+
+        <label for="weight">体重(kg):</label>
+        <input type="number" id="weight" name="weight" placeholder="请输入体重" min="0" required>
+
+        <label for="bust">胸围(cm):</label>
+        <input type="number" id="bust" name="bust" placeholder="请输入胸围" min="0" required>
+
+        <label for="waist">腰围(cm):</label>
+        <input type="number" id="waist" name="waist" placeholder="请输入腰围" min="0" required>
+
+        <label for="hips">臀围(cm):</label>
+        <input type="number" id="hips" name="hips" placeholder="请输入臀围" min="0" required>
+
+        <label for="occupation">现从事职业:</label>
+        <input type="text" id="occupation" name="occupation" placeholder="请输入现从事职业" required>
+
+        <label for="workYears">工作年限(年):</label>
+        <input type="number" id="workYears" name="workYears" placeholder="请输入工作年限" min="0" required>
+
+        <label for="talents">才艺与特长:</label>
+        <textarea id="talents" name="talents" placeholder="请输入才艺与特长" rows="4" required></textarea>
+
+        <label>能否饮酒:</label>
+        <div class="radio-group">
+            <input type="radio" id="canDrinkYes" name="canDrink" value="能" required>
+            <label for="canDrinkYes">能</label>
+            <input type="radio" id="canDrinkNo" name="canDrink" value="不能" required>
+            <label for="canDrinkNo">不能</label>
+        </div>
+
+        <label for="photo">近期半身/全身照片（背景简洁，无过度修图）:</label>
+        <input type="file" id="photo" name="photo" accept="image/*"  multiple required onchange="showThumbnailsAndUpdateInput(this)">
+        <div id="photoThumbnails" class="thumbnail-container"></div>
+
+        <label for="video">自我展示视频（15至30秒，横屏拍摄，画面稳定）:</label>
+        <input type="file" id="video" name="video" accept="video/*"  multiple required onchange="showVideoPreviewsAndUpdateInput(this)">
+        <div id="videoPreviews" class="thumbnail-container"></div>
+
+        <input type="submit" value="提交信息">
+    </form>
+
+    <div class="reminder">
+        接待时间，每日15：00~19：00（需持本人身份证原件）<br>
+        注意事项：请确保填写信息真实有效，虚假信息将影响合作
+    </div>
+
+    <div class="applicant-list" id="applicantList"></div>
+
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+</body>
+
+<script>
+    const form = document.getElementById('infoForm');
+        form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const name = formData.get('name');
+            const phone = formData.get('phone');
+
+            // 验证联系电话是否为有效号码
+            const phoneRegex = /^1[3-9]\d{9}$/;
+            if (!phoneRegex.test(phone)) {
+                alert('请输入有效的手机号码！');
+                return;
+            }
+
+            try {
+                // 显示加载状态
+                loadingOverlay.style.display = 'flex';
+                    // 先发送验证请求
+            const verifyResponse = await fetch('/Applicant/verify', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({  name, phone })
+            });
+
+                    const verifyResult = await verifyResponse.json();
+                if (verifyResult.exists) {
+                    alert('该姓名和手机号对应的信息已经提交，请勿重复提交。');
+                    // 隐藏加载状态
+                    loadingOverlay.style.display = 'none';
+                    return;
+                }
+
+                const response = await fetch('/Applicant', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.text();
+                alert(result);
+
+                if (response.ok) {
+                    form.reset();
+                    document.getElementById('photoThumbnails').innerHTML = '';
+                    document.getElementById('videoPreviews').innerHTML = '';
+                }
+            } catch (error) {
+                alert('提交申请时发生错误，请稍后重试。');
+            }finally{
+             // 隐藏加载状态
+                loadingOverlay.style.display = 'none';
+            }
+        });
+
+        function showThumbnailsAndUpdateInput(input) {
+            const thumbnailContainer = document.getElementById('photoThumbnails');
+            const maxFiles = 1;
+            const currentFiles = thumbnailContainer.querySelectorAll('.thumbnail').length;
+            const newFiles = input.files;
+            const remainingSlots = maxFiles - currentFiles;
+
+            // 显示缩略图
+            for (let i = 0; i < newFiles.length && i < remainingSlots; i++) {
+                const file = newFiles[i];
+                if (file.type.match('image.*')) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        const img = document.createElement('img');
+                        img.src = e.target.result;
+                        img.classList.add('thumbnail');
+                        const deleteBtn = document.createElement('button');
+                        deleteBtn.textContent = '×';
+                        deleteBtn.classList.add('delete-btn');
+                        deleteBtn.addEventListener('click', function () {
+                            const dt = new DataTransfer();
+                            const allFiles = Array.from(input.files);
+                            const imgIndex = Array.from(thumbnailContainer.children).indexOf(img.parentNode);
+                            allFiles.splice(imgIndex, 1);
+                            allFiles.forEach(file => dt.items.add(file));
+                            input.files = dt.files;
+                            thumbnailContainer.removeChild(img.parentNode);
+                            // 更新 input 显示的文件名
+                            updateInputFileName(input);
+                        });
+                        const wrapper = document.createElement('div');
+                        wrapper.style.position = 'relative';
+                        wrapper.appendChild(img);
+                        wrapper.appendChild(deleteBtn);
+                        thumbnailContainer.appendChild(wrapper);
+                    };
+                    reader.readAsDataURL(file);
+                }
+            }
+
+            if (newFiles.length > remainingSlots) {
+                alert(`最多只能上传 ${maxFiles} 张照片，本次仅上传了 ${remainingSlots} 张。`);
+            }
+
+            // 更新 input 显示的文件名
+            updateInputFileName(input);
+        }
+
+        function showVideoPreviewsAndUpdateInput(input) {
+            const videoPreviewsContainer = document.getElementById('videoPreviews');
+            const maxVideos = 1;
+            const currentVideos = videoPreviewsContainer.querySelectorAll('.thumbnail').length;
+            const newVideos = input.files;
+            const remainingSlots = maxVideos - currentVideos;
+
+            // 显示视频预览
+            for (let i = 0; i < newVideos.length && i < remainingSlots; i++) {
+                const file = newVideos[i];
+                if (file.type.match('video.*')) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        const video = document.createElement('video');
+                        video.src = e.target.result;
+                        video.controls = true;
+                        video.classList.add('thumbnail');
+                        const deleteBtn = document.createElement('button');
+                        deleteBtn.textContent = '×';
+                        deleteBtn.classList.add('delete-btn');
+                        deleteBtn.addEventListener('click', function () {
+                            const dt = new DataTransfer();
+                            const allFiles = Array.from(input.files);
+                            const videoIndex = Array.from(videoPreviewsContainer.children).indexOf(video.parentNode);
+                            allFiles.splice(videoIndex, 1);
+                            allFiles.forEach(file => dt.items.add(file));
+                            input.files = dt.files;
+                            videoPreviewsContainer.removeChild(video.parentNode);
+                            // 更新 input 显示的文件名
+                            updateInputFileName(input);
+                        });
+                        const wrapper = document.createElement('div');
+                        wrapper.style.position = 'relative';
+                        wrapper.appendChild(video);
+                        wrapper.appendChild(deleteBtn);
+                        videoPreviewsContainer.appendChild(wrapper);
+                    };
+                    reader.readAsDataURL(file);
+                }
+            }
+
+            if (newVideos.length > remainingSlots) {
+                alert(`最多只能上传 ${maxVideos} 个视频，本次仅上传了 ${remainingSlots} 个。`);
+            }
+
+            // 更新 input 显示的文件名
+            updateInputFileName(input);
+        }
+
+        function updateInputFileName(input) {
+            const files = input.files;
+            const fileNames = [];
+            for (let i = 0; i < files.length; i++) {
+                fileNames.push(files[i].name);
+                input.value=input.value+files[i].name;
+            }
+            // input.value = fileNames.join(', ');
+            
+        }
+
+</script>
+<style type="text/css">
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    input[type="submit"] {
+        background-color: #007BFF;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    .radio-group {
+        display: flex;
+        align-items: center;
+    }
+
+        .radio-group label {
+            margin-top: 0;
+            margin-right: 15px;
+        }
+
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        resize: vertical;
+    }
+
+    .reminder {
+        margin-top: 20px;
+        color: #666;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .thumbnail-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .thumbnail {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        position: relative;
+    }
+
+    .delete-btn {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: rgba(255, 0, 0, 0.7);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page-title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .applicant-list {
+            margin-top: 50px;
+        }
+
+       .applicant-item {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+       .loading-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+       .loading-spinner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       .loading-spinner > div {
+            width: 20px;
+            height: 20px;
+            background-color: #3498db;
+            border-radius: 50%;
+            margin: 0 5px;
+            animation: bounce 1.4s infinite ease-in-out both;
+        }
+
+       .loading-spinner .bounce1 {
+            animation-delay: -0.32s;
+        }
+
+       .loading-spinner .bounce2 {
+            animation-delay: -0.16s;
+        }
+
+
+
+
+</style>

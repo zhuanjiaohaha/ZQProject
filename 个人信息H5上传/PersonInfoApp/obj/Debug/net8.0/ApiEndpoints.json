@@ -1,0 +1,110 @@
+[
+  {
+    "ContainingType": "PersonInfoApp.Controllers.ApplicantController",
+    "Method": "Index",
+    "RelativePath": "Applicant",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonInfoApp.Controllers.ApplicantController",
+    "Method": "SubmitApplicant",
+    "RelativePath": "Applicant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonInfoApp.Controllers.ApplicantController",
+    "Method": "Verify",
+    "RelativePath": "Applicant/verify",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PersonInfoApp.Models.VerifyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonInfoApp.Controllers.ApplicantViewController",
+    "Method": "Index",
+    "RelativePath": "ApplicantView",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonInfoApp.Controllers.ApplicantViewController",
+    "Method": "GetApplicants",
+    "RelativePath": "ApplicantView",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonInfoApp.Controllers.ApplicantViewController",
+    "Method": "GetApplicantDetails",
+    "RelativePath": "ApplicantView/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonInfoApp.Controllers.ShowController",
+    "Method": "Index",
+    "RelativePath": "Show",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonInfoApp.Controllers.ShowController",
+    "Method": "GetApplicants",
+    "RelativePath": "Show",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonInfoApp.Controllers.ShowController",
+    "Method": "GetApplicantDetails",
+    "RelativePath": "Show/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

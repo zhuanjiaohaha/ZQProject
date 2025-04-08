@@ -1,0 +1,15 @@
+F:\致圈\开发版dev\Net6开发版\VOL.Core\bin\Debug\net6.0\ZQ.Core.deps.json
+F:\致圈\开发版dev\Net6开发版\VOL.Core\bin\Debug\net6.0\ZQ.Core.dll
+F:\致圈\开发版dev\Net6开发版\VOL.Core\bin\Debug\net6.0\ZQ.Core.pdb
+F:\致圈\开发版dev\Net6开发版\VOL.Core\bin\Debug\net6.0\ZQ.Entity.dll
+F:\致圈\开发版dev\Net6开发版\VOL.Core\bin\Debug\net6.0\ZQ.Entity.pdb
+F:\致圈\开发版dev\Net6开发版\VOL.Core\obj\Debug\net6.0\ZQ.Core.csproj.AssemblyReference.cache
+F:\致圈\开发版dev\Net6开发版\VOL.Core\obj\Debug\net6.0\ZQ.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\致圈\开发版dev\Net6开发版\VOL.Core\obj\Debug\net6.0\ZQ.Core.AssemblyInfoInputs.cache
+F:\致圈\开发版dev\Net6开发版\VOL.Core\obj\Debug\net6.0\ZQ.Core.AssemblyInfo.cs
+F:\致圈\开发版dev\Net6开发版\VOL.Core\obj\Debug\net6.0\ZQ.Core.csproj.CoreCompileInputs.cache
+F:\致圈\开发版dev\Net6开发版\VOL.Core\obj\Debug\net6.0\ZQ.Core.csproj.Up2Date
+F:\致圈\开发版dev\Net6开发版\VOL.Core\obj\Debug\net6.0\ZQ.Core.dll
+F:\致圈\开发版dev\Net6开发版\VOL.Core\obj\Debug\net6.0\refint\ZQ.Core.dll
+F:\致圈\开发版dev\Net6开发版\VOL.Core\obj\Debug\net6.0\ZQ.Core.pdb
+F:\致圈\开发版dev\Net6开发版\VOL.Core\obj\Debug\net6.0\ref\ZQ.Core.dll
